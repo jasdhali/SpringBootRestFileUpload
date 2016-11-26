@@ -1,0 +1,15 @@
+<!DOCTYPE form PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>File upload form</title>
+</head>
+<h2>Form to upload a file from OS.</h2>
+<body>
+	<form method="POST" enctype="multipart/form-data"
+		action="http://localhost:8080/SpringBootFileUpload-0.0.1/myservice/upload">
+		File to upload: <input type="file" name="uploadedFile"><br/>
+		<input type="submit" value="Upload">
+	</form>
+</body>
+</html>
